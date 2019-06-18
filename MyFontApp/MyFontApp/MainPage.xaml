@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:Utils="clr-namespace:MyFontApp.Utils"
+             x:Class="MyFontApp.MainPage">
+
+    <ContentPage.Content>
+        <ListView  x:Name="lstView" RowHeight="60">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="Olive">
+                            <StackLayout Orientation="Vertical">
+                                <Label  FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"  Text="{x:Static Utils:FontAwesomeIcons.Map}"
+                                               FontFamily="{StaticResource FontAwesomeSolid}"/>
+                                <Label  AbsoluteLayout.LayoutBounds="50, 35, 200, 25"  Text="{x:Static Utils:FontAwesomeIcons.MapMarkerAltSlash}"
+                                               FontFamily="{StaticResource FontAwesomeSolid}"/>
+                            </StackLayout>
+                            <!--<Image Source="{Binding Image}" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50 "/>    Mandolin    -->
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+
+</ContentPage>
