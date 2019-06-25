@@ -16,7 +16,7 @@
                             <StackLayout Orientation="Vertical">
                                 <Label  FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"  Text="{x:Static Utils:FontAwesomeIcons.Map}"
                                                FontFamily="{StaticResource FontAwesomeSolid}"/>
-                                <Label  AbsoluteLayout.LayoutBounds="50, 35, 200, 25"  Text="{x:Static Utils:FontAwesomeIcons.MapMarkerAltSlash}"
+                                <Label  AbsoluteLayout.LayoutBounds="50, 35, 200, 25"  Text="{x:Static Utils:FontAwesomeIcons.Anchor}"
                                                FontFamily="{StaticResource FontAwesomeSolid}"/>
                             </StackLayout>
                             <!--<Image Source="{Binding Image}" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50 "/>    Mandolin    -->
