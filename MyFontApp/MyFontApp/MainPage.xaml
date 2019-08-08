@@ -6,6 +6,17 @@
              mc:Ignorable="d"
              xmlns:Utils="clr-namespace:MyFontApp.Utils"
              x:Class="MyFontApp.MainPage">
+    <NavigationPage.TitleView  >
+
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label   Text="{x:Static Utils:FontAwesomeIcons.Map}"
+                     FontFamily="{StaticResource FontAwesomeSolid}"/>
+
+            <Button   Text="{x:Static Utils:FontAwesomeIcons.Anchor}"
+                     FontFamily="{StaticResource FontAwesomeSolid}"/>
+        </StackLayout>
+
+    </NavigationPage.TitleView>
 
     <ContentPage.Content>
         <ListView  x:Name="lstView" RowHeight="60">

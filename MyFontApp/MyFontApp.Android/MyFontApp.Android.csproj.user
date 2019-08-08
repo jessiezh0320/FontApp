@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Google Pixel</SelectedDevice>
     <ProjectView>ProjectFiles</ProjectView>
+    <DefaultDevice>mydevice6_0</DefaultDevice>
   </PropertyGroup>
 </Project>
